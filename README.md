@@ -13,3 +13,7 @@ This is a bare bones zero dependancy test LTI client (PHP is all that's needed).
 * Open a browser and go to localhost:8081/index.php
 
 done.
+
+## TODOs
+
+* Have the client keep track of scores
