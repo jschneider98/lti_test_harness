@@ -1,10 +1,11 @@
 # Basic LTI Test Harness (client)
 
-*Overview*
+
+## Overview
 
 This is a bare bones zero dependancy test LTI client (PHP is all that's needed). The intent is a developer can test their LTI provider using this tool with minimal setup.
 
-*Installation*
+## Installation
 
 
 1.) Clone or download and extract this repository.
