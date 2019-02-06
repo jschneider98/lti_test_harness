@@ -26,6 +26,7 @@ class Loader
             'custom_debug'                     => self::loadParam('custom_debug', '1'),
             'custom_deep_link_url'             => self::loadParam('custom_deep_link_url', 'http://atd.v.com/master/rest_server.php/Lti/Assessment'),
             'custom_teacher_email'             => self::loadParam('custom_teacher_email', 'teacher@school.org'),
+            'custom_sso_url'                   => self::loadParam('custom_sso_url', 'http://atd.v.com/master/rest_server.php/Lti/SSO'),
             'custom_student_email'             => self::loadParam('custom_student_email', 'student@school.org'),
             'ext_content_return_types'         => self::loadParam('ext_content_return_types', 'lti_launch_url'),
             'ext_content_return_url'           => self::loadParam('ext_content_return_url', 'http://localhost:8081/deep_link_return.php'),
