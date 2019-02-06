@@ -5,7 +5,6 @@ require_once('Loader.php');
 class TeacherDeepLinkTemplate
 {
     public $url;
-    public $show_launch_button;
     public $params = [];
 
     /**
@@ -17,7 +16,6 @@ class TeacherDeepLinkTemplate
 
         extract($params, EXTR_IF_EXISTS);
 
-        $this->action = $action;
         $this->params = $form_params;
         $this->url = $form_params['custom_deep_link_url'];
 
