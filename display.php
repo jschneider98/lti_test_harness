@@ -25,7 +25,8 @@ class Display
 <a href="teacher_deep_link.php">Teacher Deep Link</a> | 
 <a href="student_deep_link.php">Student Deep Link</a> |
 <a href="teacher_basic_link.php">Teacher Basic Link</a> |
-<a href="student_basic_link.php">Student Basic Link</a>
+<a href="student_basic_link.php">Student Basic Link</a> |
+<a href="score_view.php">Score Log</a>
 <hr>
 
 HTML;
