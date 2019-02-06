@@ -43,8 +43,8 @@ function getParams($data = [])
         'lti_message_type'                 => $params['lti_message_type'],
         'lti_version'                      => $params['lti_version'],
         'lis_person_contact_email_primary' => $params['lis_person_contact_email_primary'],
-        'lis_outcome_service_url'          => 'http://localhost:8081/todo.php',
-        'lis_result_sourcedid'             => 'todo',
+        'lis_outcome_service_url'          => $params['lis_outcome_service_url'],
+        'lis_result_sourcedid'             => $params['lis_result_sourcedid'],
         'custom_debug'                     => $params['custom_debug'],
         'submit_go'                        => 'Go',
     ];
