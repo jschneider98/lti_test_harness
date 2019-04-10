@@ -22,7 +22,7 @@ class Loader
         }
 
         $form_params = [
-            'custom_basic_link_url'            => self::loadParam('custom_basic_linkurl', 'http://atd.v.com/master/rest_server.php/Lti/Context'),
+            'custom_basic_link_url'            => self::loadParam('custom_basic_link_url', 'http://atd.v.com/master/rest_server.php/Lti/Context'),
             'custom_debug'                     => self::loadParam('custom_debug', '1'),
             'custom_deep_link_url'             => self::loadParam('custom_deep_link_url', 'http://atd.v.com/master/rest_server.php/Lti/Assessment'),
             'custom_teacher_email'             => self::loadParam('custom_teacher_email', 'teacher@school.org'),
